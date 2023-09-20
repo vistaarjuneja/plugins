@@ -53,8 +53,7 @@
       },
       "overwrite": {
         "type": "boolean",
-        "description": "Overwrite target file if exists.",
-        "default": "false"
+        "description": "Overwrite target file if exists."
       },
       "passphrase": {
         "type": "string",
@@ -106,8 +105,7 @@
       },
       "rm": {
         "type": "boolean",
-        "description": "Remove source file after copy.",
-        "default": "false"
+        "description": "Remove source file after copy."
       },
       "source": {
         "type": "string",

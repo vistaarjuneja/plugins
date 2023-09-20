@@ -34,8 +34,7 @@
       },
       "debug": {
         "type": "boolean",
-        "description": "Used to enable debug level logging.",
-        "default": "false"
+        "description": "Used to enable debug level logging."
       },
       "init_templates": {
         "type": "array",
@@ -53,8 +52,7 @@
       },
       "kubernetes_skip_tls": {
         "type": "boolean",
-        "description": "The same as `k8s_skip_tls`. If true, the server's certificate will not be checked for validity. This will make your HTTPS connections insecure.",
-        "default": "false"
+        "description": "The same as `k8s_skip_tls`. If true, the server's certificate will not be checked for validity. This will make your HTTPS connections insecure."
       },
       "kubernetes_token": {
         "type": "string",

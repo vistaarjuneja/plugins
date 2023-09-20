@@ -73,13 +73,11 @@
       },
       "insecure": {
         "type": "boolean",
-        "description": "Push to insecure registry.",
-        "default": "false"
+        "description": "Push to insecure registry."
       },
       "publish": {
         "type": "boolean",
-        "description": "Whether to publish the image to \"image_repo\". Defaults to \"false\" which will just build the image tarball in \"$PROJECT_HOME/dist\" folder.",
-        "default": "false"
+        "description": "Whether to publish the image to \"image_repo\". Defaults to \"false\" which will just build the image tarball in \"$PROJECT_HOME/dist\" folder."
       }
     }
   }

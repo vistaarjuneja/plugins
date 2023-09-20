@@ -35,8 +35,7 @@
       },
       "workload_identity": {
         "type": "boolean",
-        "description": "flag if key is a workload identity key",
-        "default": "false"
+        "description": "flag if key is a workload identity key"
       }
     }
   }

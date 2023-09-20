@@ -61,13 +61,11 @@
       },
       "delete": {
         "type": "boolean",
-        "description": "Delete files after sync.",
-        "default": "false"
+        "description": "Delete files after sync."
       },
       "dry_run": {
         "type": "boolean",
-        "description": "Dry run.",
-        "default": "false"
+        "description": "Dry run."
       },
       "metadata": {
         "type": "string",

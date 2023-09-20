@@ -36,8 +36,7 @@
       },
       "confirm": {
         "type": "boolean",
-        "description": "auto confirm the service upgrade if successful.",
-        "default": "false"
+        "description": "auto confirm the service upgrade if successful."
       },
       "docker_image": {
         "type": "string",

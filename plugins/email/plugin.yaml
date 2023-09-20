@@ -63,13 +63,11 @@
       },
       "recipients_only": {
         "type": "boolean",
-        "description": "Do not send mails to the commit author, but only to recipients.",
-        "default": "false"
+        "description": "Do not send mails to the commit author, but only to recipients."
       },
       "skip_verify": {
         "type": "boolean",
-        "description": "Skip cert verification.",
-        "default": "false"
+        "description": "Skip cert verification."
       },
       "subject": {
         "type": "string",

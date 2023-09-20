@@ -32,13 +32,11 @@
       },
       "flat": {
         "type": "boolean",
-        "description": "if true, artifacts are downloaded to the exact target path specified and their hierarchy in the source repository is ignored. if false, artifacts are downloaded to the target path in the file system while maintaining their hierarchy in the source repository",
-        "default": "false"
+        "description": "if true, artifacts are downloaded to the exact target path specified and their hierarchy in the source repository is ignored. if false, artifacts are downloaded to the target path in the file system while maintaining their hierarchy in the source repository"
       },
       "insecure": {
         "type": "boolean",
-        "description": "if true, the connection to the source repository is not validated by checking the server certificate. if false, the connection to the source repository is validated by checking the server certificate",
-        "default": "false"
+        "description": "if true, the connection to the source repository is not validated by checking the server certificate. if false, the connection to the source repository is validated by checking the server certificate"
       },
       "password": {
         "type": "string",

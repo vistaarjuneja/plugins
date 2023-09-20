@@ -57,8 +57,7 @@
       },
       "safe": {
         "type": "boolean",
-        "description": "encrypt message, default is false",
-        "default": "false"
+        "description": "encrypt message, default is false"
       },
       "title": {
         "type": "string",

@@ -45,8 +45,7 @@
       },
       "create_repository": {
         "type": "boolean",
-        "description": "Create repository if it does not exist.",
-        "default": "false"
+        "description": "Create repository if it does not exist."
       },
       "dockerfile": {
         "type": "string",

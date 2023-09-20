@@ -19,8 +19,7 @@
     "inputs": {
       "debug": {
         "type": "boolean",
-        "description": "if you want to debug, set it to true.",
-        "default": "false"
+        "description": "if you want to debug, set it to true."
       },
       "files": {
         "type": "array",

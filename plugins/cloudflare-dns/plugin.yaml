@@ -36,8 +36,7 @@
       },
       "debug": {
         "type": "boolean",
-        "description": "Display debug data.",
-        "default": "false"
+        "description": "Display debug data."
       },
       "record_content": {
         "type": "string",

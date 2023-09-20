@@ -25,48 +25,39 @@
     "inputs": {
       "channel": {
         "type": "string",
-        "description": "messages sent to the above webhook are posted here",
-        "default": "false"
+        "description": "messages sent to the above webhook are posted here"
       },
       "icon_emoji": {
         "type": "string",
-        "description": "displays a emoji to the left of the username",
-        "default": "false"
+        "description": "displays a emoji to the left of the username"
       },
       "icon_url": {
         "type": "string",
-        "description": "a valid URL that displays a image to the left of the username",
-        "default": "false"
+        "description": "a valid URL that displays a image to the left of the username"
       },
       "image_url": {
         "type": "string",
-        "description": "a valid URL to an image file that will be displayed inside a message attachment",
-        "default": "false"
+        "description": "a valid URL to an image file that will be displayed inside a message attachment"
       },
       "link_names": {
         "type": "string",
-        "description": "links usernames and channels in the message",
-        "default": "false"
+        "description": "links usernames and channels in the message"
       },
       "recipient": {
         "type": "string",
-        "description": "alternatively you can send it to a specific user",
-        "default": "false"
+        "description": "alternatively you can send it to a specific user"
       },
       "template": {
         "type": "string",
-        "description": "overwrite the default message template",
-        "default": "false"
+        "description": "overwrite the default message template"
       },
       "username": {
         "type": "string",
-        "description": "choose the username this integration will post as",
-        "default": "false"
+        "description": "choose the username this integration will post as"
       },
       "webhook": {
         "type": "string",
         "description": "incoming webhook url for posting to a channel",
-        "default": "false",
         "required": true
       }
     }

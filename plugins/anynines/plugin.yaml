@@ -32,8 +32,7 @@
       },
       "skip_cleanup": {
         "type": "boolean",
-        "description": "Skip cleanup of workspace.",
-        "default": "false"
+        "description": "Skip cleanup of workspace."
       },
       "space": {
         "type": "string",

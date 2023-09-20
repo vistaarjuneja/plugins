@@ -42,13 +42,11 @@
       },
       "auto-label": {
         "type": "boolean",
-        "description": "auto label image",
-        "default": "false"
+        "description": "auto label image"
       },
       "compress": {
         "type": "boolean",
-        "description": "compress image layers",
-        "default": "false"
+        "description": "compress image layers"
       },
       "context": {
         "type": "string",
@@ -67,8 +65,7 @@
       },
       "dry-run": {
         "type": "boolean",
-        "description": "dry run disables docker push",
-        "default": "false"
+        "description": "dry run disables docker push"
       },
       "label-schema": {
         "type": "string",
@@ -80,13 +77,11 @@
       },
       "pull-image": {
         "type": "boolean",
-        "description": "force pull base image at build time",
-        "default": "false"
+        "description": "force pull base image at build time"
       },
       "quiet": {
         "type": "boolean",
-        "description": "quiet mode",
-        "default": "false"
+        "description": "quiet mode"
       },
       "repo": {
         "type": "string",
@@ -94,8 +89,7 @@
       },
       "squash": {
         "type": "boolean",
-        "description": "squash image layers",
-        "default": "false"
+        "description": "squash image layers"
       },
       "tags": {
         "type": "string",

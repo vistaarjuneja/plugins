@@ -31,8 +31,7 @@
       },
       "clean_dir": {
         "type": "boolean",
-        "description": "Clean the directory before uploading.",
-        "default": "false"
+        "description": "Clean the directory before uploading."
       },
       "dest_dir": {
         "type": "string",

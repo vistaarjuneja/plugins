@@ -24,13 +24,11 @@
       },
       "rebuild": {
         "type": "boolean",
-        "description": "Rebuild cache.",
-        "default": "false"
+        "description": "Rebuild cache."
       },
       "restore": {
         "type": "boolean",
-        "description": "Restore cache from previous build.",
-        "default": "false"
+        "description": "Restore cache from previous build."
       }
     }
   }

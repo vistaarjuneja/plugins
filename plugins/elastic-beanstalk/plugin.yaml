@@ -32,8 +32,7 @@
       },
       "auto_create": {
         "type": "boolean",
-        "description": "Automatically create the application.",
-        "default": "false"
+        "description": "Automatically create the application."
       },
       "bucket_key": {
         "type": "string",
@@ -53,13 +52,11 @@
       },
       "environment_update": {
         "type": "boolean",
-        "description": "Flag whether to update ElasticBeansTalk environment with the new version.",
-        "default": "false"
+        "description": "Flag whether to update ElasticBeansTalk environment with the new version."
       },
       "process": {
         "type": "boolean",
-        "description": "Preprocess and validate the manifest.",
-        "default": "false"
+        "description": "Preprocess and validate the manifest."
       },
       "region": {
         "type": "string",

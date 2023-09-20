@@ -30,8 +30,7 @@
       },
       "debug": {
         "type": "boolean",
-        "description": "Enable debug information.",
-        "default": "false"
+        "description": "Enable debug information."
       },
       "headers": {
         "type": "array",
@@ -49,8 +48,7 @@
       },
       "skip_verify": {
         "type": "boolean",
-        "description": "Skip SSL verification.",
-        "default": "false"
+        "description": "Skip SSL verification."
       },
       "template": {
         "type": "string",

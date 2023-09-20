@@ -30,8 +30,7 @@
       },
       "tts": {
         "type": "boolean",
-        "description": "enable text-to-speech.",
-        "default": "false"
+        "description": "enable text-to-speech."
       },
       "username": {
         "type": "string",

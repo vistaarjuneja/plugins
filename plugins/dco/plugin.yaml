@@ -17,8 +17,7 @@
     "inputs": {
       "debug": {
         "type": "boolean",
-        "description": "whether to enable debug mode.",
-        "default": "false"
+        "description": "whether to enable debug mode."
       }
     }
   }

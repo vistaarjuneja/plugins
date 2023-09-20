@@ -40,8 +40,7 @@
       },
       "skip_verify": {
         "type": "boolean",
-        "description": "Skip SSL verification.",
-        "default": "false"
+        "description": "Skip SSL verification."
       },
       "source": {
         "type": "string",

@@ -35,8 +35,7 @@
       },
       "force_upload": {
         "type": "boolean",
-        "description": "Force upload if a file already exists.",
-        "default": "false"
+        "description": "Force upload if a file already exists."
       },
       "group_id": {
         "type": "string",

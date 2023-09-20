@@ -21,18 +21,15 @@
     "inputs": {
       "message_color": {
         "type": "boolean",
-        "description": "color the title and content for easier identification.",
-        "default": "false"
+        "description": "color the title and content for easier identification."
       },
       "message_pic": {
         "type": "boolean",
-        "description": "insert a picture into a message to make the content richer.",
-        "default": "false"
+        "description": "insert a picture into a message to make the content richer."
       },
       "sha_link": {
         "type": "boolean",
-        "description": "sha as a link to click to the source code page.",
-        "default": "false"
+        "description": "sha as a link to click to the source code page."
       },
       "token": {
         "type": "string",

@@ -50,8 +50,7 @@
     "inputs": {
       "become": {
         "type": "boolean",
-        "description": "run operations with become",
-        "default": "false"
+        "description": "run operations with become"
       },
       "become_method": {
         "type": "string",
@@ -63,8 +62,7 @@
       },
       "check": {
         "type": "boolean",
-        "description": "run a check, do not apply any changes",
-        "default": "false"
+        "description": "run a check, do not apply any changes"
       },
       "connection": {
         "type": "string",
@@ -72,8 +70,7 @@
       },
       "diff": {
         "type": "boolean",
-        "description": "show the differences, may print secrets",
-        "default": "false"
+        "description": "show the differences, may print secrets"
       },
       "extra_vars": {
         "type": "string",
@@ -81,13 +78,11 @@
       },
       "flush_cache": {
         "type": "boolean",
-        "description": "clear the fact cache for every host in inventory",
-        "default": "false"
+        "description": "clear the fact cache for every host in inventory"
       },
       "force_handlers": {
         "type": "boolean",
-        "description": "run handlers even if a task fails",
-        "default": "false"
+        "description": "run handlers even if a task fails"
       },
       "forks": {
         "type": "number",
@@ -113,18 +108,15 @@
       },
       "list_hosts": {
         "type": "boolean",
-        "description": "outputs a list of matching hosts",
-        "default": "false"
+        "description": "outputs a list of matching hosts"
       },
       "list_tags": {
         "type": "boolean",
-        "description": "list all available tags",
-        "default": "false"
+        "description": "list all available tags"
       },
       "list_tasks": {
         "type": "boolean",
-        "description": "list all tasks that would be executed",
-        "default": "false"
+        "description": "list all tasks that would be executed"
       },
       "module_path": {
         "type": "string",
@@ -169,8 +161,7 @@
       },
       "syntax_check": {
         "type": "boolean",
-        "description": "perform a syntax check on the playbook",
-        "default": "false"
+        "description": "perform a syntax check on the playbook"
       },
       "tags": {
         "type": "array",

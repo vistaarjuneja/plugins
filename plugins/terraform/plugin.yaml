@@ -35,8 +35,7 @@
       },
       "plan": {
         "type": "boolean",
-        "description": "Whether to run a plan before applying the configuration.",
-        "default": "false"
+        "description": "Whether to run a plan before applying the configuration."
       },
       "remote": {
         "type": "array",
@@ -60,7 +59,6 @@
       "sensitive": {
         "type": "boolean",
         "description": "Whether or not to suppress terraform commands to stdout.",
-        "default": "false",
         "mask": true
       },
       "vars": {

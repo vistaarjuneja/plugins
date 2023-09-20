@@ -53,8 +53,7 @@
       },
       "path_style": {
         "type": "boolean",
-        "description": "whether path style URLs should be used (true for minio)",
-        "default": "false"
+        "description": "whether path style URLs should be used (true for minio)"
       },
       "region": {
         "type": "string",

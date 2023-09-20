@@ -60,8 +60,7 @@
       },
       "auto_tag": {
         "type": "boolean",
-        "description": "generate tag names automatically based on git branch and git tag",
-        "default": "false"
+        "description": "generate tag names automatically based on git branch and git tag"
       },
       "auto_tag_suffix": {
         "type": "string",
@@ -69,8 +68,7 @@
       },
       "bip": {
         "type": "boolean",
-        "description": "use for pass bridge ip",
-        "default": "false"
+        "description": "use for pass bridge ip"
       },
       "build_args": {
         "type": "string",
@@ -86,8 +84,7 @@
       },
       "compress": {
         "type": "boolean",
-        "description": "compress the build context using gzip",
-        "default": "false"
+        "description": "compress the build context using gzip"
       },
       "context": {
         "type": "string",
@@ -107,13 +104,11 @@
       },
       "daemon_off": {
         "type": "boolean",
-        "description": "don't start the docker daemon",
-        "default": "false"
+        "description": "don't start the docker daemon"
       },
       "debug": {
         "type": "boolean",
-        "description": "launch the docker daemon in verbose debug mode",
-        "default": "false"
+        "description": "launch the docker daemon in verbose debug mode"
       },
       "dockerfile": {
         "type": "string",
@@ -130,18 +125,15 @@
       },
       "experimental": {
         "type": "boolean",
-        "description": "docker daemon Experimental mode",
-        "default": "false"
+        "description": "docker daemon Experimental mode"
       },
       "force_tag": {
         "type": "boolean",
-        "description": "replace existing matched image tags",
-        "default": "false"
+        "description": "replace existing matched image tags"
       },
       "insecure": {
         "type": "boolean",
-        "description": "enable insecure communication to this registry",
-        "default": "false"
+        "description": "enable insecure communication to this registry"
       },
       "ipv6": {
         "type": "string",
@@ -153,8 +145,7 @@
       },
       "launch_debug": {
         "type": "boolean",
-        "description": "launch the docker daemon in verbose debug mode",
-        "default": "false"
+        "description": "launch the docker daemon in verbose debug mode"
       },
       "mirror": {
         "type": "string",
@@ -179,8 +170,7 @@
       },
       "pull_image": {
         "type": "boolean",
-        "description": "force pull base image at build time",
-        "default": "false"
+        "description": "force pull base image at build time"
       },
       "purge": {
         "type": "boolean",
@@ -201,8 +191,7 @@
       },
       "squash": {
         "type": "boolean",
-        "description": "squash the layers at build time",
-        "default": "false"
+        "description": "squash the layers at build time"
       },
       "ssh-agent-key": {
         "type": "string",

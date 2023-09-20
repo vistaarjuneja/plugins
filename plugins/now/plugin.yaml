@@ -30,8 +30,7 @@
       },
       "cleanup": {
         "type": "boolean",
-        "description": "Equivalent to now rm --safe --yes $alias",
-        "default": "false"
+        "description": "Equivalent to now rm --safe --yes $alias"
       },
       "deploy_name": {
         "type": "string",

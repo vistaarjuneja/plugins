@@ -33,8 +33,7 @@
       },
       "compress": {
         "type": "boolean",
-        "description": "gzip files before they are uploaded and add a Content-Encoding gzip",
-        "default": "false"
+        "description": "gzip files before they are uploaded and add a Content-Encoding gzip"
       },
       "exclude": {
         "type": "string",
@@ -47,8 +46,7 @@
       },
       "strip_prefix": {
         "type": "boolean",
-        "description": "strip the prefix from source path",
-        "default": "false"
+        "description": "strip the prefix from source path"
       },
       "target": {
         "type": "string",

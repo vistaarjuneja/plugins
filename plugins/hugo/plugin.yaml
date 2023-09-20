@@ -27,18 +27,15 @@
     "inputs": {
       "buildDrafts": {
         "type": "boolean",
-        "description": "Include content marked as draft.",
-        "default": "false"
+        "description": "Include content marked as draft."
       },
       "buildExpired": {
         "type": "boolean",
-        "description": "Include expired content.",
-        "default": "false"
+        "description": "Include expired content."
       },
       "buildFuture": {
         "type": "boolean",
-        "description": "include content with publishdate in the future.",
-        "default": "false"
+        "description": "include content with publishdate in the future."
       },
       "config": {
         "type": "string",
@@ -71,8 +68,7 @@
       },
       "validate": {
         "type": "boolean",
-        "description": "Validate config file before generation.",
-        "default": "false"
+        "description": "Validate config file before generation."
       }
     }
   }
