@@ -24,8 +24,7 @@
     "inputs": {
       "sonar_debug": {
         "type": "boolean",
-        "description": "Enable debug flag for additional information logging",
-        "default": "false"
+        "description": "Enable debug flag for additional information logging"
       },
       "sonar_host": {
         "type": "string",

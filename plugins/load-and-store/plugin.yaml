@@ -27,8 +27,7 @@
       },
       "debug": {
         "type": "boolean",
-        "description": "Enable verbose logging",
-        "default": "false"
+        "description": "Enable verbose logging"
       },
       "password": {
         "type": "string",

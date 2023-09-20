@@ -33,8 +33,7 @@
       },
       "delete": {
         "type": "boolean",
-        "description": "instruct plugin to delete the target folder before copying",
-        "default": "false"
+        "description": "instruct plugin to delete the target folder before copying"
       },
       "exclude": {
         "type": "array",
@@ -69,8 +68,7 @@
       },
       "recursive": {
         "type": "boolean",
-        "description": "instruct plugin to recursively copy",
-        "default": "false"
+        "description": "instruct plugin to recursively copy"
       },
       "script": {
         "type": "array",

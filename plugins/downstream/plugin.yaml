@@ -28,8 +28,7 @@
       },
       "last_successful": {
         "type": "boolean",
-        "description": "Trigger the last successful build for the branch specified in repositories.",
-        "default": "false"
+        "description": "Trigger the last successful build for the branch specified in repositories."
       },
       "params": {
         "type": "array",
@@ -60,8 +59,7 @@
       },
       "wait": {
         "type": "boolean",
-        "description": "wait for any currently running builds to finish if true, else fails.",
-        "default": "false"
+        "description": "wait for any currently running builds to finish if true, else fails."
       }
     }
   }

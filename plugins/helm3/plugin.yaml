@@ -48,8 +48,7 @@
       },
       "atomic_upgrade": {
         "type": "boolean",
-        "description": "Pass --atomic to helm upgrade.",
-        "default": "false"
+        "description": "Pass --atomic to helm upgrade."
       },
       "chart": {
         "type": "string",
@@ -61,28 +60,23 @@
       },
       "cleanup_failed_upgrade": {
         "type": "boolean",
-        "description": "Pass --cleanup-on-fail to helm upgrade.",
-        "default": "false"
+        "description": "Pass --cleanup-on-fail to helm upgrade."
       },
       "debug": {
         "type": "boolean",
-        "description": "Produce debug output from the plugin and helm itself. Note that this option may expose secrets in the log output.",
-        "default": "false"
+        "description": "Produce debug output from the plugin and helm itself. Note that this option may expose secrets in the log output."
       },
       "dry_run": {
         "type": "boolean",
-        "description": "Prepare the un/installation, but do not perform it.",
-        "default": "false"
+        "description": "Prepare the un/installation, but do not perform it."
       },
       "force_upgrade": {
         "type": "boolean",
-        "description": "Pass --force to helm upgrade.",
-        "default": "false"
+        "description": "Pass --force to helm upgrade."
       },
       "keep_history": {
         "type": "boolean",
-        "description": "Pass --keep-history to helm uninstall.",
-        "default": "false"
+        "description": "Pass --keep-history to helm uninstall."
       },
       "kube_api_server": {
         "type": "string",
@@ -104,8 +98,7 @@
       },
       "lint_strictly": {
         "type": "boolean",
-        "description": "Pass --strict to helm lint.",
-        "default": "false"
+        "description": "Pass --strict to helm lint."
       },
       "mode": {
         "type": "string",
@@ -131,13 +124,11 @@
       },
       "reuse_values": {
         "type": "boolean",
-        "description": "Reuse the values from a previous release.",
-        "default": "false"
+        "description": "Reuse the values from a previous release."
       },
       "skip_tls_verify": {
         "type": "boolean",
-        "description": "Do not check for a valid certificate when connecting to the kubernetes api.",
-        "default": "false"
+        "description": "Do not check for a valid certificate when connecting to the kubernetes api."
       },
       "string_values": {
         "type": "string",
@@ -149,8 +140,7 @@
       },
       "update_dependencies": {
         "type": "boolean",
-        "description": "Run helm dependency update before running the main helm command.",
-        "default": "false"
+        "description": "Run helm dependency update before running the main helm command."
       },
       "values": {
         "type": "string",
@@ -162,8 +152,7 @@
       },
       "wait_for_upgrade": {
         "type": "boolean",
-        "description": "Wait until kubernetes resources are in a ready state before marking the installation successful.",
-        "default": "false"
+        "description": "Wait until kubernetes resources are in a ready state before marking the installation successful."
       }
     }
   }

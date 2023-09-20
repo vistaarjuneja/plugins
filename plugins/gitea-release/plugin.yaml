@@ -40,8 +40,7 @@
       },
       "draft": {
         "type": "boolean",
-        "description": "draft release",
-        "default": "false"
+        "description": "draft release"
       },
       "file_exists": {
         "type": "string",
@@ -55,8 +54,7 @@
       },
       "insecure": {
         "type": "boolean",
-        "description": "visit base_url via insecure https protocol",
-        "default": "false"
+        "description": "visit base_url via insecure https protocol"
       },
       "note": {
         "type": "string",
@@ -64,8 +62,7 @@
       },
       "prerelease": {
         "type": "boolean",
-        "description": "prerelease release",
-        "default": "false"
+        "description": "prerelease release"
       },
       "title": {
         "type": "string",

@@ -45,13 +45,11 @@
       },
       "proxy_host": {
         "type": "string",
-        "description": "Proxy server Host.",
-        "default": "false"
+        "description": "Proxy server Host."
       },
       "proxy_non_proxy_hosts": {
         "type": "array",
-        "description": "Non proxy server hosts.",
-        "default": "false"
+        "description": "Non proxy server hosts."
       },
       "proxy_password": {
         "type": "string",
@@ -64,8 +62,7 @@
       },
       "proxy_protocol": {
         "type": "string",
-        "description": "Protocol for the proxy ie http or https.",
-        "default": "false"
+        "description": "Protocol for the proxy ie http or https."
       },
       "proxy_user": {
         "type": "string",

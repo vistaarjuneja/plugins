@@ -20,8 +20,7 @@
     "inputs": {
       "debug": {
         "type": "boolean",
-        "description": "enable debug mode.",
-        "default": "false"
+        "description": "enable debug mode."
       },
       "files": {
         "type": "array",

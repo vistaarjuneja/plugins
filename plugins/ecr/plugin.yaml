@@ -46,8 +46,7 @@
       },
       "bip": {
         "type": "boolean",
-        "description": "use for pass bridge ip.",
-        "default": "false"
+        "description": "use for pass bridge ip."
       },
       "build_args": {
         "type": "array",
@@ -61,8 +60,7 @@
       },
       "create_repository": {
         "type": "boolean",
-        "description": "Create repository if it does not exist.",
-        "default": "false"
+        "description": "Create repository if it does not exist."
       },
       "custom_dns": {
         "type": "string",
@@ -75,13 +73,11 @@
       },
       "force_tag": {
         "type": "boolean",
-        "description": "replace existing matched image tags.",
-        "default": "false"
+        "description": "replace existing matched image tags."
       },
       "insecure": {
         "type": "boolean",
-        "description": "enable insecure communication to this registry.",
-        "default": "false"
+        "description": "enable insecure communication to this registry."
       },
       "lifecycle_policy": {
         "type": "string",
@@ -107,8 +103,7 @@
       },
       "scan_on_push": {
         "type": "boolean",
-        "description": "boolean of whether to enable automatic ECR images vulnerabilities scanning for repository if it was created with create_repository=true.",
-        "default": "false"
+        "description": "boolean of whether to enable automatic ECR images vulnerabilities scanning for repository if it was created with create_repository=true."
       },
       "secret_key": {
         "type": "string",

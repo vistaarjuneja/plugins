@@ -30,8 +30,7 @@
       },
       "trigger_restart": {
         "type": "boolean",
-        "description": "Force a restart of the application.",
-        "default": "false"
+        "description": "Force a restart of the application."
       },
       "values": {
         "type": "object",

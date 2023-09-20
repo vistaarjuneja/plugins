@@ -39,8 +39,7 @@
       },
       "parallel": {
         "type": "boolean",
-        "description": "whether to run the batch in parallel.",
-        "default": "false"
+        "description": "whether to run the batch in parallel."
       },
       "params": {
         "type": "object",

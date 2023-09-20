@@ -29,8 +29,7 @@
       },
       "enable-tls": {
         "type": "boolean",
-        "description": "enable tls",
-        "default": "false"
+        "description": "enable tls"
       },
       "host": {
         "type": "string",
@@ -62,8 +61,7 @@
       },
       "use-sasl": {
         "type": "boolean",
-        "description": "use use-sasl",
-        "default": "false"
+        "description": "use use-sasl"
       }
     }
   }

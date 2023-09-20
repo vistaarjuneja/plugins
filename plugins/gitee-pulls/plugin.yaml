@@ -37,13 +37,11 @@
       },
       "comment_disabled": {
         "type": "boolean",
-        "description": "disable automatic updating of the comment with build status",
-        "default": "false"
+        "description": "disable automatic updating of the comment with build status"
       },
       "debug": {
         "type": "boolean",
-        "description": "enable debug mode",
-        "default": "false"
+        "description": "enable debug mode"
       },
       "failure_label": {
         "type": "string",
@@ -52,13 +50,11 @@
       },
       "is_running": {
         "type": "boolean",
-        "description": "is the build running",
-        "default": "false"
+        "description": "is the build running"
       },
       "label_disabled": {
         "type": "boolean",
-        "description": "disable automatic updating of the label with build status",
-        "default": "false"
+        "description": "disable automatic updating of the label with build status"
       },
       "running_label": {
         "type": "string",
@@ -72,8 +68,7 @@
       },
       "test_disabled": {
         "type": "boolean",
-        "description": "disable automatic updating of the test status",
-        "default": "false"
+        "description": "disable automatic updating of the test status"
       }
     }
   }

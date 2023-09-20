@@ -21,8 +21,7 @@
     "inputs": {
       "debug": {
         "type": "boolean",
-        "description": "Enable debug mode",
-        "default": "false"
+        "description": "Enable debug mode"
       },
       "host": {
         "type": "string",

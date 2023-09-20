@@ -60,8 +60,7 @@
       },
       "debug": {
         "type": "boolean",
-        "description": "whether to enable debug mode.",
-        "default": "false"
+        "description": "whether to enable debug mode."
       },
       "encryption": {
         "type": "string",
@@ -84,13 +83,11 @@
       },
       "path-style": {
         "type": "boolean",
-        "description": "use path style for bucket paths. (true for minio, false for aws).",
-        "default": "false"
+        "description": "use path style for bucket paths. (true for minio, false for aws)."
       },
       "rebuild": {
         "type": "boolean",
-        "description": "whether to rebuild the cache directories.",
-        "default": "false"
+        "description": "whether to rebuild the cache directories."
       },
       "region": {
         "type": "string",
@@ -98,8 +95,7 @@
       },
       "restore": {
         "type": "boolean",
-        "description": "whether to restore the cache directories.",
-        "default": "false"
+        "description": "whether to restore the cache directories."
       },
       "secret-key": {
         "type": "string",

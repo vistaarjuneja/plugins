@@ -40,8 +40,7 @@
       },
       "draft": {
         "type": "boolean",
-        "description": "create a draft release",
-        "default": "false"
+        "description": "create a draft release"
       },
       "file_exists": {
         "type": "string",
@@ -59,13 +58,11 @@
       },
       "overwrite": {
         "type": "boolean",
-        "description": "force overwrite existing release informations (only title and note)",
-        "default": "false"
+        "description": "force overwrite existing release informations (only title and note)"
       },
       "prerelease": {
         "type": "boolean",
-        "description": "create a pre-release",
-        "default": "false"
+        "description": "create a pre-release"
       },
       "title": {
         "type": "string",

@@ -97,8 +97,7 @@
       },
       "script_stop": {
         "type": "boolean",
-        "description": "stop script after first failure.",
-        "default": "false"
+        "description": "stop script after first failure."
       },
       "timeout": {
         "type": "string",

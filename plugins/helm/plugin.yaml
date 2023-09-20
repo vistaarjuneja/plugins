@@ -36,8 +36,7 @@
       },
       "debug": {
         "type": "boolean",
-        "description": "very verbose output. it will display all the ENVVARS passed to the container. Very handy when debugging secrets.",
-        "default": "false"
+        "description": "very verbose output. it will display all the ENVVARS passed to the container. Very handy when debugging secrets."
       },
       "kubernetes_token": {
         "type": "string",
@@ -61,8 +60,7 @@
       },
       "skip_tls_verify": {
         "type": "boolean",
-        "description": "if you create your own SSL certificates, youi will need this flag to be true to avoid having connectivity issues.",
-        "default": "false"
+        "description": "if you create your own SSL certificates, youi will need this flag to be true to avoid having connectivity issues."
       },
       "tiller_ns": {
         "type": "string",

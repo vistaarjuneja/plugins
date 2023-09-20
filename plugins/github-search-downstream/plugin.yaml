@@ -45,8 +45,7 @@
       },
       "ignore_missing": {
         "type": "boolean",
-        "description": "continue triggering if build is not found",
-        "default": "false"
+        "description": "continue triggering if build is not found"
       },
       "timeout": {
         "type": "number",
@@ -55,8 +54,7 @@
       },
       "wait": {
         "type": "boolean",
-        "description": "wait for any currently running builds to finish if true, else fails",
-        "default": "false"
+        "description": "wait for any currently running builds to finish if true, else fails"
       }
     }
   }

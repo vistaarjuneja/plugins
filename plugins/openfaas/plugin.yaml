@@ -26,8 +26,7 @@
     "inputs": {
       "deploy": {
         "type": "boolean",
-        "description": "set to true if you want to deploy the function.",
-        "default": "false"
+        "description": "set to true if you want to deploy the function."
       },
       "image_name": {
         "type": "string",
@@ -54,8 +53,7 @@
       },
       "tls_no_verify": {
         "type": "boolean",
-        "description": "set to true if you setup don't have a valid tls certificate.",
-        "default": "false"
+        "description": "set to true if you setup don't have a valid tls certificate."
       },
       "url": {
         "type": "string",

@@ -43,8 +43,7 @@
       },
       "skip_build": {
         "type": "boolean",
-        "description": "Skip the build and only upload pre-build files from dist/*.",
-        "default": "false"
+        "description": "Skip the build and only upload pre-build files from dist/*."
       },
       "username": {
         "type": "string",

@@ -63,7 +63,6 @@
       "BLUEMIX_SPACE": {
         "type": "boolean",
         "description": "target BLUEMIX space.",
-        "default": "false",
         "mask": true
       },
       "BLUEMIX_USER": {
@@ -121,23 +120,19 @@
       },
       "no_hostname": {
         "type": "boolean",
-        "description": "Map the root domain to this app",
-        "default": "false"
+        "description": "Map the root domain to this app"
       },
       "no_manifest": {
         "type": "boolean",
-        "description": "Ignore manifest file",
-        "default": "false"
+        "description": "Ignore manifest file"
       },
       "no_route": {
         "type": "boolean",
-        "description": "Do not map a route to this app and remove routes from previous pushes of this app.",
-        "default": "false"
+        "description": "Do not map a route to this app and remove routes from previous pushes of this app."
       },
       "no_start": {
         "type": "boolean",
-        "description": "Do not start an app after pushing.",
-        "default": "false"
+        "description": "Do not start an app after pushing."
       },
       "org": {
         "type": "string",
@@ -154,8 +149,7 @@
       },
       "random_route": {
         "type": "boolean",
-        "description": "Create a random route for this app.",
-        "default": "false"
+        "description": "Create a random route for this app."
       },
       "route_path": {
         "type": "string",
@@ -163,8 +157,7 @@
       },
       "skip_ssl": {
         "type": "boolean",
-        "description": "Skip verification of the API endpoint. Not recommended!.",
-        "default": "false"
+        "description": "Skip verification of the API endpoint. Not recommended!."
       },
       "space": {
         "type": "string",

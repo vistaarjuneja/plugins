@@ -32,13 +32,11 @@
       },
       "color": {
         "type": "boolean",
-        "description": "Disable color output.",
-        "default": "false"
+        "description": "Disable color output."
       },
       "debug": {
         "type": "boolean",
-        "description": "Debug mode enabled for builds.",
-        "default": "false"
+        "description": "Debug mode enabled for builds."
       },
       "except": {
         "type": "array",
@@ -46,8 +44,7 @@
       },
       "force": {
         "type": "boolean",
-        "description": "Force a build to continue if artifacts exist, deletes existing artifacts.",
-        "default": "false"
+        "description": "Force a build to continue if artifacts exist, deletes existing artifacts."
       },
       "only": {
         "type": "array",
@@ -55,18 +52,15 @@
       },
       "parallel": {
         "type": "boolean",
-        "description": "Disable parallelization.",
-        "default": "false"
+        "description": "Disable parallelization."
       },
       "readable": {
         "type": "boolean",
-        "description": "Machine-readable output.",
-        "default": "false"
+        "description": "Machine-readable output."
       },
       "syntax_only": {
         "type": "boolean",
-        "description": "Only check syntax. Do not verify config of the template.",
-        "default": "false"
+        "description": "Only check syntax. Do not verify config of the template."
       },
       "template": {
         "type": "string",

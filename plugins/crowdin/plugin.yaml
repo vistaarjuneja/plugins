@@ -37,8 +37,7 @@
       },
       "ignore_branch": {
         "type": "boolean",
-        "description": "It will send the Drone branch to Crowdin if it is false.",
-        "default": "false"
+        "description": "It will send the Drone branch to Crowdin if it is false."
       },
       "languages": {
         "type": "array",

@@ -49,8 +49,7 @@
       },
       "strip_prefix": {
         "type": "boolean",
-        "description": "strip the prefix from source path.",
-        "default": "false"
+        "description": "strip the prefix from source path."
       },
       "target": {
         "type": "string",

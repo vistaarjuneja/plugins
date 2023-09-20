@@ -45,8 +45,7 @@
       },
       "commit": {
         "type": "boolean",
-        "description": "add and commit the contents of the repo before pushing.",
-        "default": "false"
+        "description": "add and commit the contents of the repo before pushing."
       },
       "commit_message": {
         "type": "string",
@@ -55,18 +54,15 @@
       },
       "empty_commit": {
         "type": "boolean",
-        "description": "create an empty commit if there are no changes.",
-        "default": "false"
+        "description": "create an empty commit if there are no changes."
       },
       "followtags": {
         "type": "boolean",
-        "description": "push with --follow-tags option.",
-        "default": "false"
+        "description": "push with --follow-tags option."
       },
       "force": {
         "type": "boolean",
-        "description": "force push using the --force flag.",
-        "default": "false"
+        "description": "force push using the --force flag."
       },
       "local_branch": {
         "type": "string",
@@ -90,8 +86,7 @@
       },
       "skip_verify": {
         "type": "boolean",
-        "description": "skip verification of HTTPS certs.",
-        "default": "false"
+        "description": "skip verification of HTTPS certs."
       },
       "ssh_key": {
         "type": "string",

@@ -40,8 +40,7 @@
       },
       "detailed_output": {
         "type": "boolean",
-        "description": "Output in details",
-        "default": "false"
+        "description": "Output in details"
       },
       "helm_chart": {
         "type": "string",
@@ -49,8 +48,7 @@
       },
       "helm_include_crds": {
         "type": "boolean",
-        "description": "Indicates whether or not to include CRDs in Helm release",
-        "default": "false"
+        "description": "Indicates whether or not to include CRDs in Helm release"
       },
       "helm_namespace": {
         "type": "string",
@@ -70,18 +68,15 @@
       },
       "ignore_non_k8s": {
         "type": "boolean",
-        "description": "Ignore non-Kubernetes YAML files",
-        "default": "false"
+        "description": "Ignore non-Kubernetes YAML files"
       },
       "ignore_unknown": {
         "type": "boolean",
-        "description": "Ignore unknown Kubernetes resources",
-        "default": "false"
+        "description": "Ignore unknown Kubernetes resources"
       },
       "json_output": {
         "type": "boolean",
-        "description": "Output in JSON format",
-        "default": "false"
+        "description": "Output in JSON format"
       },
       "k8s_version": {
         "type": "string",
@@ -89,8 +84,7 @@
       },
       "live_k8s": {
         "type": "boolean",
-        "description": "Validate againts live Kubernetes version",
-        "default": "false"
+        "description": "Validate againts live Kubernetes version"
       },
       "manifests": {
         "type": "string",

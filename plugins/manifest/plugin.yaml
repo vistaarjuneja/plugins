@@ -28,23 +28,19 @@
     "inputs": {
       "auto_tag": {
         "type": "boolean",
-        "description": "Auto tags, only used with spec.",
-        "default": "false"
+        "description": "Auto tags, only used with spec."
       },
       "default_tags": {
         "type": "boolean",
-        "description": "Default tags, only used with spec.",
-        "default": "false"
+        "description": "Default tags, only used with spec."
       },
       "ignore_missing": {
         "type": "boolean",
-        "description": "Ignore missing source images.",
-        "default": "false"
+        "description": "Ignore missing source images."
       },
       "insecure": {
         "type": "boolean",
-        "description": "Enable insecure (not TLS) registry support.",
-        "default": "false"
+        "description": "Enable insecure (not TLS) registry support."
       },
       "password": {
         "type": "string",

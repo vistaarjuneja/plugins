@@ -25,8 +25,7 @@
       },
       "dry_run": {
         "type": "boolean",
-        "description": "When set to true, the plugin only computes metrics and events without sending anything to the Datadog intake. When the plugin runs in dry mode, it doesn't require an api_key to be set, useful for testing.",
-        "default": "false"
+        "description": "When set to true, the plugin only computes metrics and events without sending anything to the Datadog intake. When the plugin runs in dry mode, it doesn't require an api_key to be set, useful for testing."
       },
       "events": {
         "type": "array",

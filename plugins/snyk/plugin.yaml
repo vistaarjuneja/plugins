@@ -25,8 +25,7 @@
       },
       "fail_on_issues": {
         "type": "boolean",
-        "description": "Fail build if issues are found.",
-        "default": "false"
+        "description": "Fail build if issues are found."
       },
       "image": {
         "type": "string",
