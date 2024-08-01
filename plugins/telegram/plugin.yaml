@@ -1,82 +1,98 @@
 {
-  "kind": "plugin",
-  "type": "step",
-  "name": "telegram",
-  "spec": {
-    "name": "Telegram",
-    "description": "The Telegram plugin posts build status messages to your account.",
-    "step": {
-      "type": "script",
-      "spec": {
-        "image": "appleboy/drone-telegram",
-        "envs": {
-          "PLUGIN_AUDIO": "${{ inputs.audio }}",
-          "PLUGIN_DOCUMENT": "${{ inputs.document }}",
-          "PLUGIN_FORMAT": "${{ inputs.format }}",
-          "PLUGIN_LOCATION": "${{ inputs.location }}",
-          "PLUGIN_MESSAGE": "${{ inputs.message }}",
-          "PLUGIN_PHOTO": "${{ inputs.photo }}",
-          "PLUGIN_STICKER": "${{ inputs.sticker }}",
-          "PLUGIN_TO": "${{ inputs.to }}",
-          "PLUGIN_TOKEN": "${{ inputs.token }}",
-          "PLUGIN_VENUE": "${{ inputs.venue }}",
-          "PLUGIN_VIDEO": "${{ inputs.video }}",
-          "PLUGIN_VOICE": "${{ inputs.voice }}"
+    "template": {
+        "step": {
+            "name": "telegram",
+            "run": {
+                "container": "appleboy/drone-telegram",
+                "env": {
+                    "PLUGIN_AUDIO": "${{ inputs.audio }}",
+                    "PLUGIN_DOCUMENT": "${{ inputs.document }}",
+                    "PLUGIN_FORMAT": "${{ inputs.format }}",
+                    "PLUGIN_LOCATION": "${{ inputs.location }}",
+                    "PLUGIN_MESSAGE": "${{ inputs.message }}",
+                    "PLUGIN_PHOTO": "${{ inputs.photo }}",
+                    "PLUGIN_STICKER": "${{ inputs.sticker }}",
+                    "PLUGIN_TO": "${{ inputs.to }}",
+                    "PLUGIN_TOKEN": "${{ inputs.token }}",
+                    "PLUGIN_VENUE": "${{ inputs.venue }}",
+                    "PLUGIN_VIDEO": "${{ inputs.video }}",
+                    "PLUGIN_VOICE": "${{ inputs.voice }}"
+                }
+            }
+        },
+        "inputs": {
+            "audio": {
+                "type": "string",
+                "description": "local file path",
+                "required": false,
+                "mask": false
+            },
+            "document": {
+                "type": "string",
+                "description": "local file path",
+                "required": false,
+                "mask": false
+            },
+            "format": {
+                "type": "string",
+                "description": "markdown or html format",
+                "required": false,
+                "mask": false
+            },
+            "location": {
+                "type": "string",
+                "description": "local file path",
+                "required": false,
+                "mask": false
+            },
+            "message": {
+                "type": "string",
+                "description": "overwrite the default message template",
+                "required": false,
+                "mask": false
+            },
+            "photo": {
+                "type": "string",
+                "description": "local file path",
+                "required": false,
+                "mask": false
+            },
+            "sticker": {
+                "type": "string",
+                "description": "local file path",
+                "required": false,
+                "mask": false
+            },
+            "to": {
+                "type": "string",
+                "description": "telegram user id (can be requested from the @userinfobot inside Telegram)",
+                "required": true,
+                "mask": false
+            },
+            "token": {
+                "type": "string",
+                "description": "telegram token from telegram developer center",
+                "required": true,
+                "mask": true
+            },
+            "venue": {
+                "type": "string",
+                "description": "local file path",
+                "required": false,
+                "mask": false
+            },
+            "video": {
+                "type": "string",
+                "description": "local file path",
+                "required": false,
+                "mask": false
+            },
+            "voice": {
+                "type": "string",
+                "description": "local file path",
+                "required": false,
+                "mask": false
+            }
         }
-      }
-    },
-    "inputs": {
-      "audio": {
-        "type": "string",
-        "description": "local file path"
-      },
-      "document": {
-        "type": "string",
-        "description": "local file path"
-      },
-      "format": {
-        "type": "string",
-        "description": "markdown or html format"
-      },
-      "location": {
-        "type": "string",
-        "description": "local file path"
-      },
-      "message": {
-        "type": "string",
-        "description": "overwrite the default message template"
-      },
-      "photo": {
-        "type": "string",
-        "description": "local file path"
-      },
-      "sticker": {
-        "type": "string",
-        "description": "local file path"
-      },
-      "to": {
-        "type": "string",
-        "description": "telegram user id (can be requested from the @userinfobot inside Telegram)",
-        "required": true
-      },
-      "token": {
-        "type": "string",
-        "description": "telegram token from telegram developer center",
-        "required": true,
-        "mask": true
-      },
-      "venue": {
-        "type": "string",
-        "description": "local file path"
-      },
-      "video": {
-        "type": "string",
-        "description": "local file path"
-      },
-      "voice": {
-        "type": "string",
-        "description": "local file path"
-      }
     }
-  }
 }
