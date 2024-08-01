@@ -1,47 +1,49 @@
 {
-  "kind": "plugin",
-  "type": "step",
-  "name": "nomad",
-  "spec": {
-    "name": "Nomad",
-    "description": "Use the Nomad plugin to deploy services from a template. You will need to supply Drone with the nomad template file.",
-    "step": {
-      "type": "script",
-      "spec": {
-        "image": "loq9/drone-nomad",
-        "envs": {
-          "PLUGIN_ADDR": "${{ inputs.addr }}",
-          "PLUGIN_NAMESPACE": "${{ inputs.namespace }}",
-          "PLUGIN_REGION": "${{ inputs.region }}",
-          "PLUGIN_TEMPLATE": "${{ inputs.template }}",
-          "PLUGIN_TOKEN": "${{ inputs.token }}"
+    "template": {
+        "step": {
+            "name": "nomad",
+            "run": {
+                "container": "loq9/drone-nomad",
+                "env": {
+                    "PLUGIN_ADDR": "${{ inputs.addr }}",
+                    "PLUGIN_NAMESPACE": "${{ inputs.namespace }}",
+                    "PLUGIN_REGION": "${{ inputs.region }}",
+                    "PLUGIN_TEMPLATE": "${{ inputs.template }}",
+                    "PLUGIN_TOKEN": "${{ inputs.token }}"
+                }
+            }
+        },
+        "inputs": {
+            "addr": {
+                "type": "string",
+                "description": "The Nomad server address",
+                "required": true,
+                "mask": false
+            },
+            "namespace": {
+                "type": "string",
+                "description": "Nomad namespace",
+                "required": false,
+                "mask": false
+            },
+            "region": {
+                "type": "string",
+                "description": "Nomad region",
+                "required": false,
+                "mask": false
+            },
+            "template": {
+                "type": "string",
+                "description": "Template for Nomad",
+                "required": true,
+                "mask": false
+            },
+            "token": {
+                "type": "string",
+                "description": "Nomad token",
+                "required": false,
+                "mask": true
+            }
         }
-      }
-    },
-    "inputs": {
-      "addr": {
-        "type": "string",
-        "description": "The Nomad server address",
-        "required": true
-      },
-      "namespace": {
-        "type": "string",
-        "description": "Nomad namespace"
-      },
-      "region": {
-        "type": "string",
-        "description": "Nomad region"
-      },
-      "template": {
-        "type": "string",
-        "description": "Template for Nomad",
-        "required": true
-      },
-      "token": {
-        "type": "string",
-        "description": "Nomad token",
-        "mask": true
-      }
     }
-  }
 }
