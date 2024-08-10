@@ -13,12 +13,6 @@
             }
         },
         "inputs": {
-            "registry": {
-                "type": "string",
-                "description": "authenticates to this registry",
-                "required": false,
-                "mask": false
-            },
             "repo": {
                 "type": "string",
                 "description": "repository name for the image",
